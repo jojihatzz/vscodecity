@@ -1,0 +1,70 @@
+{
+  "editor.fontSize": 17.3, // font size
+  "editor.fontFamily": "Monaspace Neon, FantasqueSansM Nerd Font, Consolas, 'Courier New', monospace", //font family
+  "editor.codeActionsOnSave": {
+      "source.organizeImports": "explicit"
+  }, // format file on save
+  "editor.cursorBlinking": "phase", //cursor appearance
+  "editor.cursorSmoothCaretAnimation": "on", //cursor appearance
+  "editor.smoothScrolling": true, //cursor appearance
+  "editor.linkedEditing": true, //linked editing enabled
+  "workbench.iconTheme": "material-icon-theme", //vscode icon theme
+  "window.title": "${dirty}${activeEditorShort}${separator}${rootName}${separator}${folderPath}", //window title bar
+  "window.titleSeparator": " --- ", //title separator
+  "terminal.integrated.smoothScrolling": true, //menu bar visibility
+  "liveServer.settings.donotShowInfoMsg": true,
+  "editor.fontLigatures": true,
+  "window.commandCenter": false,
+  "workbench.layoutControl.enabled": false,
+  "editor.minimap.renderCharacters": false,
+  "window.menuBarVisibility": "toggle",
+  "security.workspace.trust.untrustedFiles": "open",
+  "workbench.productIconTheme": "el-vsc-v1-icons",
+  "errorLens.enabled": true,
+  "liveServer.settings.donotVerifyTags": true,
+  "terminal.integrated.defaultProfile.windows": "PowerShell",
+  "cSpell.enabled": false,
+  "editor.accessibilitySupport": "off",
+  "playwright.reuseBrowser": true,
+  "codesnap.backgroundColor": "#fff",
+  "codesnap.boxShadow": "rgba(0, 0, 0, 0.55) 0px 20px 30px",
+  "codesnap.containerPadding": "6em",
+  "github.copilot.editor.enableAutoCompletions": true,
+  "codemapper.excludedFileTypes": [
+      ".zip",
+      ".jpg",
+      ".png",
+      ".pdf",
+      ".mp4",
+      ".mp3",
+      ".wav",
+      ".flac",
+      ".avi",
+      ".mov",
+      ".wmv",
+      ".mkv",
+      ".webm",
+      ".m4a",
+      ".m4v",
+      ".flv",
+      ".swf",
+      ".gif",
+      ".webp",
+      ".bmp",
+      ".tiff",
+      ".ico",
+      ".psd",
+      ".ai",
+      ".eps",
+      ".indd",
+      ".vsix",
+      ".ico",
+      ".ttf",
+      ".pyc",
+      ".md",
+      ".svg"
+      
+  ],
+  "workbench.colorTheme": "Dark Horizon",
+"terminal.integrated.fontFamily": "FantasqueSansM Nerd Font, Consolas, 'Courier New', monospace",
+}
